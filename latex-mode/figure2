@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: figure2
+# key: bef2
+# --
+
+\begin{figure}[${1:H}]
+  \centering
+  \asyinclude{./ASY/${2:asymptote}}
+  \caption{${3:caption}}
+  \label{fig:${4:label}}
+\end{figure}$0
